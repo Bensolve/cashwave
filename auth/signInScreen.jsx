@@ -6,7 +6,7 @@ import { useNavigation } from '@react-navigation/native';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { useState } from 'react';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
-import { auth } from '../firebaseConfig'; // Adjust the import path based on your project structure
+import { auth } from '@/firebaseConfig'; // Adjust the import path based on your project structure
 
 
 
