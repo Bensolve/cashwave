@@ -3,7 +3,7 @@ import { styles } from './Sign';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import { createUserWithEmailAndPassword, AuthErrorCodes } from 'firebase/auth';
-import { auth } from '@/firebaseConfig'; // Adjust the import path based on your project structure
+import { auth } from '../firebaseConfig'; // Adjust the import path based on your project structure
 import { useState } from 'react';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 
