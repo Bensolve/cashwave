@@ -12,18 +12,18 @@ export default function ImageSlider() {
             <ScrollView contentContainerStyle={styles.listContent} horizontal={true} showsHorizontalScrollIndicator={false}>
             {[
               {
-                img: require('../../assets/images/back1.jpg'),
+                img: require('../../assets/images/img01.png'),
                },
               {
-                img: require('../../assets/images/back2.jpg'),
+                img: require('../../assets/images/img02.png'),
                
               },
               {
-                img: require('../../assets/images/back3.jpg'),
+                img: require('../../assets/images/img03.png'),
                
               },
               {
-                img: require('../../assets/images/back4.jpg'),
+                img: require('../../assets/images/img04.png'),
                
               },
             
